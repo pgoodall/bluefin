@@ -1,6 +1,5 @@
 org.mozilla.firefox
 org.freedesktop.Platform.ffmpeg-full//22.08
-com.raggesilver.BlackBox
 org.gnome.Calculator
 org.gnome.Calendar
 org.gnome.Characters
@@ -18,6 +17,8 @@ org.gnome.clocks
 org.gnome.font-viewer
 com.mattjakeman.ExtensionManager
 com.github.tchx84.Flatseal
+io.github.flattool.Warehouse
+com.github.marhkb.Pods
 org.fedoraproject.MediaWriter
 io.missioncenter.MissionCenter
 io.github.celluloid_player.Celluloid

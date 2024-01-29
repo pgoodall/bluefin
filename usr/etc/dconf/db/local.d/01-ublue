@@ -1,10 +1,10 @@
 [org/gnome/shell] 
 favorite-apps = ['org.mozilla.firefox.desktop', 'org.mozilla.Thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.gnome.Software.desktop', 'code.desktop', 'ubuntu.desktop', 'yelp.desktop']
-enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io']
+enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'tailscale@joaophi.github.com']
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/backgrounds/bluefin/bluefin-autumn-dynamic.xml'
-picture-uri-dark='file:///usr/share/backgrounds/bluefin/bluefin-autumn-dynamic.xml'
+picture-uri='file:///usr/share/backgrounds/bluefin/bluefin-winter-dynamic.xml'
+picture-uri-dark='file:///usr/share/backgrounds/bluefin/bluefin-winter-dynamic.xml'
 picture-options='zoom'
 primary-color='000000'
 secondary-color='FFFFFF'
@@ -22,7 +22,7 @@ monospace-font-name="Ubuntu Mono 18"
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
-theme-name="Yaru"
+theme-name="freedesktop"
 
 [org/gnome/desktop/wm/preferences]
 button-layout=":minimize,maximize,close"
@@ -37,6 +37,9 @@ switch-windows-backward = ['<Shift><Alt>Tab']
 
 [org/gnome/desktop/peripherals/touchpad]
 tap-to-click=true
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
 
 [org/gnome/shell/extensions/dash-to-dock]
 dock-fixed=true
@@ -54,13 +57,13 @@ min-alpha=0.5
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Control><Alt>t'
-command='gnome-terminal'
-name='gnome-terminal'
+command='xdg-terminal-exec'
+name='Prompt'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Control><Alt>u'
-command='flatpak run com.raggesilver.BlackBox --command "distrobox enter ubuntu"'
-name='blackbox ubuntu'
+command='xdg-terminal-exec -- distrobox enter ubuntu'
+name='Ubuntu Prompt'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Control><Shift>Escape'
@@ -81,7 +84,7 @@ sort-directories-first=true
 sort-directories-first=true
 
 [org/gnome/mutter]
-experimental-features=['variable-refresh-rate','scale-monitor-framebuffer']
+experimental-features=['scale-monitor-framebuffer']
 
 [com/raggesilver/BlackBox]
 command-as-login-shell=true
@@ -97,3 +100,32 @@ window-height=650
 allow-updates=false
 download-updates=false
 download-updates-notify=false
+
+[com/github/stunkymonkey/nautilus-open-any-terminal]
+terminal='prompt'
+keybindings=''
+new-tab=false
+flatpak='off'
+
+[org/gnome/shell/extensions/Logo-menu]
+menu-button-icon-image=1
+menu-button-terminal='xdg-terminal-exec'
+menu-button-system-monitor='flatpak run io.missioncenter.MissionCenter'
+menu-button-extensions-app='com.mattjakeman.ExtensionManager.desktop'
+menu-button-software-center='gnome-software'
+show-activities-button=true
+show-lockscreen=false
+show-power-option=false
+show-gamemode=false
+hide-forcequit=true
+show-pods=true
+
+[org/gnome/Prompt]
+interface-style='system'
+restore-session=false
+restore-window-size=false
+profile-uuids=['2871e8027773ae74d6c87a5f659bbc74']
+default-profile-uuid='2871e8027773ae74d6c87a5f659bbc74'
+
+[org/gnome/Prompt/Profiles/2871e8027773ae74d6c87a5f659bbc74]
+palette='Catpuccin Mocha'

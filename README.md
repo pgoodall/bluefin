@@ -17,8 +17,23 @@ A familiar(ish) Ubuntu desktop for Fedora Silverblue. It strives to cover these 
 
 # Documentation
 
-1. [Bluefin](https://universal-blue.org/images/bluefin/)
+1. [Bluefin](https://universal-blue.discourse.group/t/introduction-to-bluefin/41)
 2. [Discussions and Announcements](https://universal-blue.discourse.group/c/bluefin/6) - strongly recommended!
-3. [Developer Experience Edition](https://universal-blue.org/images/bluefin/developer-experience)
-4. [Administrator's Guide](https://universal-blue.discourse.group/docs?topic=40)
+3. [Developer Experience Edition](https://universal-blue.discourse.group/t/bluefin-dx-the-bluefin-developer-experience/39)
+4. [Administrator's Guide](https://universal-blue.discourse.group/t/bluefin-administrators-guide/40)
 5. [Framework Images](https://universal-blue.org/images/framework/)
+
+## Repobeats
+
+![Alt](https://repobeats.axiom.co/api/embed/40b85b252bf6ea25eb90539d1adcea013ccae69a.svg "Repobeats analytics image")
+
+## Star History
+
+<a href="https://star-history.com/#ublue-os/bluefin&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ublue-os/bluefin&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ublue-os/bluefin&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ublue-os/bluefin&type=Date" />
+  </picture>
+</a>
+
