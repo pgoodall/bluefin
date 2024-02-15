@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.3.0](https://github.com/pgoodall/bluefin/compare/v1.2.0...v1.3.0) (2024-02-15)
+
+
+### Features
+
+* add ability to set Prompt terminal transparency with ujust ([#886](https://github.com/pgoodall/bluefin/issues/886)) ([98873c5](https://github.com/pgoodall/bluefin/commit/98873c5f151ce88368a178894b4b13d9d132b259))
+* add mastodon tip ([91ab228](https://github.com/pgoodall/bluefin/commit/91ab2285468967a6a02c4e74c0f62534e5c9d4fb))
+* Add modified Catppuccin theme with dark/light support as the default for Prompt ([#865](https://github.com/pgoodall/bluefin/issues/865)) ([507ae9a](https://github.com/pgoodall/bluefin/commit/507ae9a7aa49cada9831f6c47d8c0102c7f78ffc))
+* add podman wrapper for vscode ([#885](https://github.com/pgoodall/bluefin/issues/885)) ([6173cc9](https://github.com/pgoodall/bluefin/commit/6173cc913b4d408b673a8e51f5e980a611cc7a6f))
+* **dx:** add remote-containers extension to vscode ([#888](https://github.com/pgoodall/bluefin/issues/888)) ([c3251a9](https://github.com/pgoodall/bluefin/commit/c3251a9e6e23b22a2c82b761b509796a614eadd6))
+* Enable GSP by default for Nvidia hardware, needed by NVK ([#877](https://github.com/pgoodall/bluefin/issues/877)) ([684d27a](https://github.com/pgoodall/bluefin/commit/684d27a2675421f2e9af5c5b95df64a8775adb72))
+* Get Atuin from bluefin-cli ([#895](https://github.com/pgoodall/bluefin/issues/895)) ([95ca17f](https://github.com/pgoodall/bluefin/commit/95ca17f462604e9f40b77367c359ccea0e893966))
+* improve prompt integration with quadlets ([#889](https://github.com/pgoodall/bluefin/issues/889)) ([267e5be](https://github.com/pgoodall/bluefin/commit/267e5be35d824a5c921f18bce9fc151ed6762947))
+* prompt integration with quadlets ([#874](https://github.com/pgoodall/bluefin/issues/874)) ([61ea499](https://github.com/pgoodall/bluefin/commit/61ea4995fca066a892f4dbd693ab1f66dd11d026))
+* Replace tips with a check engine light when the booted image is over a month old ([#863](https://github.com/pgoodall/bluefin/issues/863)) ([aa27a95](https://github.com/pgoodall/bluefin/commit/aa27a958a3bfbe83a300cb6642ead4436d079d83))
+* set terminal quick launch shortcuts ([#903](https://github.com/pgoodall/bluefin/issues/903)) ([a7d993d](https://github.com/pgoodall/bluefin/commit/a7d993de8e61c4856ae90b94481145761e35e01b))
+* Switch to system level flatpaks ([#790](https://github.com/pgoodall/bluefin/issues/790)) ([9eaed15](https://github.com/pgoodall/bluefin/commit/9eaed157dc1afe08d3ff496ca6e69f725a1ac8ac))
+* Switch to TuneD from PPD (F39+) ([#836](https://github.com/pgoodall/bluefin/issues/836)) ([3df0332](https://github.com/pgoodall/bluefin/commit/3df0332d6b49a2f5c413e2d3c0e8eb0105d98b4e))
+
+
+### Bug Fixes
+
+* add flathub donation link ([47504be](https://github.com/pgoodall/bluefin/commit/47504be84ffdce79c5d8e0fdfa4d1929e3dfcdb1))
+* chmod ([#887](https://github.com/pgoodall/bluefin/issues/887)) ([922550e](https://github.com/pgoodall/bluefin/commit/922550ec9db6b45fca9bd311e63e42852a33ad38))
+* correct dconf key in default-uuid bluefin-cli ([#908](https://github.com/pgoodall/bluefin/issues/908)) ([df40f7b](https://github.com/pgoodall/bluefin/commit/df40f7b445aff137cc8dd58429be9cab5c1ea863))
+* Correct default font applied to VSCode ([#879](https://github.com/pgoodall/bluefin/issues/879)) ([3e0e074](https://github.com/pgoodall/bluefin/commit/3e0e07405df19774a934f8c399cea5226a6315c9))
+* correct name in enable-bluefin-cli.sh ([#894](https://github.com/pgoodall/bluefin/issues/894)) ([36adbfd](https://github.com/pgoodall/bluefin/commit/36adbfdb37e66b6a66320255da068348b234aee7))
+* correct Pods packagename ([#867](https://github.com/pgoodall/bluefin/issues/867)) ([ce2e723](https://github.com/pgoodall/bluefin/commit/ce2e723eb1de4cfcd50bfbae6231ee9be44b1ecc))
+* enable MOTD for fish ([#897](https://github.com/pgoodall/bluefin/issues/897)) ([954d4e0](https://github.com/pgoodall/bluefin/commit/954d4e05437c3f15d3d31bebfd845a49edb32f40))
+* Ensure flathub repo is always installed ([#861](https://github.com/pgoodall/bluefin/issues/861)) ([4c6fcef](https://github.com/pgoodall/bluefin/commit/4c6fcef15d18a2be2161a77370c1720feb232327))
+* icon spacing ([39aa492](https://github.com/pgoodall/bluefin/commit/39aa492696375c2ce5acb4b7164830e05bdc9128))
+* improve ujust bluefin-cli ([#857](https://github.com/pgoodall/bluefin/issues/857)) ([c64c8fb](https://github.com/pgoodall/bluefin/commit/c64c8fbc1557d5a71222d4d2694d2e75c7eb862c))
+* **just:** clean up distroboxes ([#871](https://github.com/pgoodall/bluefin/issues/871)) ([1faa99a](https://github.com/pgoodall/bluefin/commit/1faa99aa73a912cb049cadf1017090a6b079c5ff))
+* mastodon url ([81f1648](https://github.com/pgoodall/bluefin/commit/81f1648dae400b9d3de9154bb554e1d567150320))
+* more tips ([a3ed979](https://github.com/pgoodall/bluefin/commit/a3ed979c186c8c79ef634c77b4936ccb38713901))
+* remove fedora shortcut from -dx ([#905](https://github.com/pgoodall/bluefin/issues/905)) ([232a053](https://github.com/pgoodall/bluefin/commit/232a0532227b0790e28e0c53c3cd2dd2edb8a462))
+* Restore Ubuntu & Cascadia code fonts after previous switch to simpler nerd-font package ([#856](https://github.com/pgoodall/bluefin/issues/856)) ([cbe6532](https://github.com/pgoodall/bluefin/commit/cbe65327e57d9c044fb28803cdbafc78823ee322))
+* shortcut should be Return not Enter ([#904](https://github.com/pgoodall/bluefin/issues/904)) ([3e04e66](https://github.com/pgoodall/bluefin/commit/3e04e66263a17980adb9845e08bd658559770620))
+* update bluefin.md ([de1c9c9](https://github.com/pgoodall/bluefin/commit/de1c9c9da9def98b17633462b9d96720384ddee3))
+* Update libadwaita package for Prompt ([#901](https://github.com/pgoodall/bluefin/issues/901)) ([45fddbd](https://github.com/pgoodall/bluefin/commit/45fddbd2753bae34794a37e356d53a4adad77e53))
+* update tips ([f75119d](https://github.com/pgoodall/bluefin/commit/f75119dba7d687b8ea89166ef62bffab8a35eb9f))
+* update tips ([9839d49](https://github.com/pgoodall/bluefin/commit/9839d49e139e7378973e0db4a308e6b729fe1422))
+* update tips ([#860](https://github.com/pgoodall/bluefin/issues/860)) ([0a88a21](https://github.com/pgoodall/bluefin/commit/0a88a211faa44e1f14d77990f934fb8d742b1cbd))
+* wrong file name for quadlet ([#869](https://github.com/pgoodall/bluefin/issues/869)) ([1070868](https://github.com/pgoodall/bluefin/commit/1070868530233602bc4ea5a3b401850fa8a8308d))
+
 ## [1.2.0](https://github.com/pgoodall/bluefin/compare/v1.3.0...v1.2.0) (2023-11-17)
 
 
