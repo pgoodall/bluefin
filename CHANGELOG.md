@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/pgoodall/bluefin/compare/v1.3.0...v1.4.0) (2024-02-16)
+
+
+### Features
+
+* Add GNOME Boxes to development tools section ([#909](https://github.com/pgoodall/bluefin/issues/909)) ([93dcf1d](https://github.com/pgoodall/bluefin/commit/93dcf1d57aa5273cee5ff98eba5c9a2609203bf3))
+
 ## [1.3.0](https://github.com/pgoodall/bluefin/compare/v1.2.0...v1.3.0) (2024-02-15)
 
 
