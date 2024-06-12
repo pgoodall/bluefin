@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.0](https://github.com/pgoodall/bluefin/compare/v3.0.0...v3.1.0) (2024-06-12)
+
+
+### Features
+
+* switch to summer wallpaper set ([#1356](https://github.com/pgoodall/bluefin/issues/1356)) ([48d0d3c](https://github.com/pgoodall/bluefin/commit/48d0d3c6047a484b97bd1eb3a7e199ca98cd4bc7))
+
+
+### Bug Fixes
+
+* Correct timing issues on dynamic wallpapers ([#1385](https://github.com/pgoodall/bluefin/issues/1385)) ([e0c0c73](https://github.com/pgoodall/bluefin/commit/e0c0c73b9fe7a08761c1636b6d945ca1437d8e8a))
+* revert back to spring wallpaper ([#1387](https://github.com/pgoodall/bluefin/issues/1387)) ([706383c](https://github.com/pgoodall/bluefin/commit/706383cfb568d050c3722fbbe4f1971e474bc754))
+
 ## [3.0.0](https://github.com/pgoodall/bluefin/compare/v2.9.0...v3.0.0) (2024-06-10)
 
 
